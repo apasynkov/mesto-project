@@ -1,0 +1,16 @@
+.button-container {
+    display: flex;
+    justify-items: end;
+    align-items: center;
+    justify-content: end;
+    box-sizing: border-box;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 879px) {
+    .button-container {
+        justify-content: start;
+    }
+}

@@ -1,0 +1,36 @@
+.profile__edit-button {
+    display: flex;
+    box-sizing: border-box;
+    background-image: url("../../../images/edit-button.svg");
+    background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-image: none;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 27px;
+    align-self: end;
+    background-position: center;
+    background-color: black;
+    cursor: pointer;
+    padding: 0;
+
+}
+
+.profile__edit-button:hover {
+    background-image: url("../../../images/edit-button-hover.svg");
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width:879px) {
+    .profile__edit-button {
+        margin-bottom: 14px;
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .profile__edit-button {
+        margin-bottom: 13px;
+    }
+}

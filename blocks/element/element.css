@@ -1,0 +1,12 @@
+.element {
+    display: flex;
+    flex-direction: column;
+    max-width: 282px;
+    max-height: 361px;
+    justify-content: start;
+    align-content: center;
+    list-style: none;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
