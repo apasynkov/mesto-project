@@ -19,3 +19,8 @@
         width: 20px;
     }
 }
+
+.popup__close-button:hover {
+    background-image: url("../../../images/close-icon-hover.svg");
+    opacity: 0.6;
+}
