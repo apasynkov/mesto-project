@@ -1,17 +1,20 @@
 .elements {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 282px);
+    display: flex;
     margin: 0 0 67px 0;
     padding: 0;
-    column-gap: 17px;
-    row-gap: 20px;
-    box-sizing: border-box;
-    position: relative;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width:879px) {
     .elements{
         margin: 0 0 48px 0;
+    }
+}
+
+@media screen and (max-width:645px) {
+    .elements{
+        justify-self: center;
+        justify-items: center;
+        justify-content: center;
     }
 }

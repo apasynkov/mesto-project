@@ -16,9 +16,15 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 645px) {
     .profile__info {
         justify-content: center;
         justify-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile__info {
+        max-width: 85%;
     }
 }

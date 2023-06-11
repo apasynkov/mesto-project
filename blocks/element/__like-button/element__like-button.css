@@ -3,7 +3,7 @@
     background-image: url("../../../images/like-button-disabled.svg");
     background-repeat: no-repeat;
     height: 19px;
-    width: 22px;
+    min-width: 22px;
     padding: 0;
     margin-right: 20px;
     background-position: center;
@@ -21,3 +21,4 @@
 .element__like-button:active {
     background-image: url("../../../images/like-button-active.svg");
 }
+

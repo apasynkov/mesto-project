@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin: 0 36px 37px;
     cursor: pointer;
     font-size: 18px;
     line-height: 22px;
@@ -19,6 +18,7 @@
     border-color: black;
     border-image: none;
     color: white;
+    margin: 0 36px 37px ;
 }
 
 .popup__submit-button:hover {
@@ -29,6 +29,8 @@
     .popup__submit-button {
         min-width: 238px;
         min-height: 46px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
 
