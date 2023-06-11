@@ -11,6 +11,7 @@
     cursor: pointer;
     border: 2px solid rgba(255, 255, 255, 1);
     border-image: none;
+    border-radius: 2px;
 }
 
 .profile__add-button:hover {

@@ -1,6 +1,5 @@
 .header {
     position: relative;
-    max-height: 119px;
     border-bottom: 1px solid rgba(84, 84, 84, .7);
     object-position: bottom;
     opacity: 0.7;

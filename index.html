@@ -7,18 +7,6 @@
     <title>Mesto</title>
 </head>
 <body class="page">
-<section class="popup">
-    <form class="popup__container">
-        <div class="popup__text-area">
-            <h2 class="popup__heading">Редактировать профиль</h2>
-            <label for="profile-name"></label>
-            <input type="text" class="popup__form-item" name="profile-name" id="profile-name" placeholder="Жак Ив Кусто">
-            <label for="profile-description"></label>
-            <input type="text" class="popup__form-item" name="profile-description" id="profile-description" placeholder="Исследователь океана">
-            <button class="popup__submit-button">Сохранить</button>
-        </div>
-    </form>
-</section>
 <header class="header">
     <div class="header__logo"></div>
 </header>
@@ -78,9 +66,19 @@
             </div>
         </li>
     </ul>
-    <footer class="footer">
-        <p class="footer__copyright">© 2020 Mesto Russia</p>
-    </footer>
 </main>
+<footer class="footer">
+    <p class="footer__copyright">© 2020 Mesto Russia</p>
+</footer>
+<div class="popup">
+    <form class="popup__container">
+        <h2 class="popup__heading">Редактировать профиль</h2>
+        <label for="profile-name"></label>
+        <input type="text" class="popup__form-item" name="profile-name" id="profile-name" placeholder="Имя профиля">
+        <label for="profile-description"></label>
+        <input type="text" class="popup__form-item" name="profile-description" id="profile-description" placeholder="Описание профиля">
+        <button class="popup__submit-button" type="button">Сохранить</button>
+    </form>
+</div>
 </body>
 </html>

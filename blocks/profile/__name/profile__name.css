@@ -1,5 +1,5 @@
 .profile__name {
-    display: flex;
+    display: inline-block;
     font-weight: 500;
     font-size: 42px;
     line-height: 48px;
@@ -7,8 +7,10 @@
     color: white;
     margin-bottom: 16px;
     box-sizing: border-box;
-    max-height: 39px;
     margin-top: 11px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90%;
 }
 
 @media screen and (max-width: 879px) {
@@ -20,11 +22,9 @@
 
 @media screen and (max-width:500px) {
     .profile__name {
-        font-weight: 500;
         font-size: 27px;
         line-height: 33px;
         text-align: center;
-        max-height: 26px;
     }
 }
 

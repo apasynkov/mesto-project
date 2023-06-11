@@ -7,7 +7,7 @@
     border-image: none;
     width: 24px;
     height: 24px;
-    margin-bottom: 27px;
+    margin-bottom: 33px;
     align-self: end;
     background-position: center;
     background-color: black;
@@ -31,6 +31,6 @@
 
 @media screen and (max-width:500px) {
     .profile__edit-button {
-        margin-bottom: 13px;
+        margin-bottom: 23px;
     }
 }
