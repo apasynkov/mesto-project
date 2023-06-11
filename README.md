@@ -10,7 +10,7 @@
 
 **GitHubPages**
 
-* [Ссылка на проект в GitPages](https://apasynkov.github.io/russian-travel/)
+* [Ссылка на проект в GitPages](https://apasynkov.github.io/mesto-project/)
 
 **Техническая информация**
 
